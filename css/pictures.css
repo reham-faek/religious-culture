@@ -1,0 +1,66 @@
+/* pictures section  */
+.pictures{
+    background-color: var(--lg-lightgraycolor);
+}
+.pictures-item{
+    padding: 20px;
+}
+.pictures-img {
+    width: 110%;
+}
+.pictures-item img{
+    width: 100%;
+}
+.layer-content{
+    width:110%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+}
+.layer-info{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.layer-content .catogary{
+    color: yellowgreen;
+    margin-bottom: 5px;
+    top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+    transition-delay:0.2s;
+}
+.layer-content-title{
+    font-size: 20px;
+    color: var(--whitecolor);
+    top: 10px;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+    transition-delay:0.3s;
+}
+.layer-content a i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: var(--whitecolor);
+    background-color: var(--maincolor);
+    top: 10px;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+    transition-delay:0.3s ;
+}
+.pictures-item:hover .layer-content,
+.pictures-item:hover .layer-content-title,
+.pictures-item:hover .layer-content .catogary,
+.pictures-item:hover .layer-content a i{
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}

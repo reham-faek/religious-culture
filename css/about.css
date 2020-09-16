@@ -1,0 +1,23 @@
+/* About section  */
+.about-item{
+    padding: 50px 20px;
+    border: var(--lg-lightgraycolor) solid 1px;
+}
+.about-item-title{
+    text-transform:capitalize ;
+}
+.about-item-desc{
+    width: 300px;
+    line-height: 1.6;
+    color: var(--graycolor);
+}
+.about-item .icon{
+    color: var(--maincolor);
+}
+.about-item-link{
+    color: var(--maincolor);
+}
+.about-item:hover .about-item-title{
+    color: var(--whitecolor);
+    transition: color 0.5s;
+}

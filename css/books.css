@@ -1,0 +1,24 @@
+/* books section  */
+.books-item{
+    height: 476px;
+    border: 1px solid var(--lg-lightgraycolor);
+}
+.books-item-purchase {
+    width:200px;
+    height: 45px;
+    border: 0;
+    background: none;
+    border: 2px solid var(--maincolor);
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left:70px ;
+    line-height: 45px;
+}
+.books-item-purchase {
+     color: var(--maincolor);
+     padding: 10px;
+}
+.books-item:hover .books-item-purchase:active{
+    border: var(--blackcolor);
+}
