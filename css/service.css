@@ -1,6 +1,7 @@
 /* Service section  */
 .service{
     background-color: var(--lg-lightgraycolor);
+    width:100vw;
 }
 .service-item{
     width: 50%;
